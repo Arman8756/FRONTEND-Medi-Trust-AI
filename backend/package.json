@@ -1,0 +1,23 @@
+{
+  "name": "meditrust-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend proxy for MediTrust AI - OpenAI & Gemini integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:gemini": "node server-gemini.js",
+    "dev": "nodemon server.js",
+    "dev:gemini": "nodemon server-gemini.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
